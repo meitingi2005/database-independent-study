@@ -19,7 +19,7 @@ Before begin explaining what each commands can do, below is a list of major SQL 
 - INSERT
 - WHERE
 
-When I was learning how to create a table, I decided to learn the basic SQL commands first because I wanted to know what kind of function does SQL provides. The result was that the syntax for SQL was fairly easy and powerful as long as you remember the key commands. 
+One thing that SQL is different from Ruby is the fact that all SQL commands are typed on the command line rather than in a document. I got very confused at first because I didn't know where to enter the commands. After experimenting with the code, I figured out that everything including creating a table and inserting data is done on the command line. <a href="https://github.com/learn-co-students/sql-queries-basic-v-000">Clink here to learn how to create a table</a>
 
 ##### SELECT: <br>
 While I was going through different SQL tutorials, I realized that all tutorials always start with the SELECT command because that is how you can view your table. The SELECT command is by far the most important command for SQL because it is how you will get access to the data in the databases. In order to select an specific data from the databases, the code is 
@@ -59,8 +59,11 @@ FROM table_name
 WHERE condition; 
 ```
 In addition, you can use `AND` and `OR` if you want to include more conditions.
- 
-So at this point of learning, I personally feel like SQL is actually easier than I imagined. Similar to Ruby, the syntax for SQL does exactly what it looks like. If you want to delete something, you will have to the DELETE command. 
+
+
+For this entry, I only went over the basic SQL commands that I think is important to know. SQL has way more functionality that you expected and you can do things like `ORDER BY`, `NULL` to organize your table the way you wanted to be. 
+<br>
+So at this point of learning, I personally feel like SQL is actually easier than I imagined. Similar to Ruby, the syntax for SQL does exactly what it looks like. If you want to delete something, you will have to the DELETE command and so on. 
  
 
 #### Takeaways:
