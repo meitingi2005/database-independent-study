@@ -1,13 +1,13 @@
 # Entry 1: SQL Basic 
 ### Overview: 
-<p>When I started to reserach about databases, I came across two types of probleming languages that help manage data in an organized way, SQL and Activerecord. I will learn about Activerecord next week, but bascially Activerecord allows user to write cleaner code without writing the long SQL syntax. However, I decided to learn the basic syntex for SQL because SQL is the foundation for Activerecord so that learning SQL will give me a better understaanding when I start learning Activerecord. </p>
+<p>In the last unit of Software Engineering Class, I was asked to conduct an independent study on any topics I want. The independent study will last for 9 weeks and I will submit an entry each week to record what I have learned in that week. Since I just finished the Ruby unit, I decided to continue learning something related to Ruby, which is databases. When I started to reserach about databases, I came across two types of probleming languages that help manage data in an organized way, SQL and Activerecord. I will learn about Activerecord next week, but bascially Activerecord allows user to write cleaner code without writing the long SQL syntax. However, I decided to learn the basic syntex for SQL because SQL is the foundation for Activerecord so that learning SQL will give me a better understaanding when I start learning Activerecord. </p>
 
 ### What is SQL?
 SQL stands for Structured Query Language. It was created in the early 1970s by Donald D. Chamberlin and Raymond F. Boyce, who were part of the (IBM). Basically, SQL is a programming language that allows user to access, manipulate and store data in the database. Within the databases, the user can also create, delete and motify the data, which is commonly presented in a table form. 
 
 ### What is table?
 <p>Have you ever wondered how the computer keep track of your data or how Facebook manage millions of user data? The answer is probably table. For most cases, we will be using Relational Databases for this unit because of its structure. Relational Databases is very simple, it consists of one or more table and each table is made out of row(s) and column(s). An example is the "Customers" table below.  </p>
-<img src="../photo/sql2.jpg"/>
+<img src="../photo/sql3.jpg"/>
 
 Table is such an important and helpful tool for programmer especially when you want to keep track of data using rows and columns. Personally, my goal for the final project is to be able to take in user's data and store in in the table so that the user itself can look at it at the end. 
 ### Common commands for SQL
@@ -26,7 +26,7 @@ While I was going through different SQL tutorials, I realized that all tutorials
 `SELECT * FROM table_name;` <br><br>
 Below is the result for the SELECT command:
 
-<img src="../photo/sql3.jpg"/>
+<img src="../photo/sql2.jpg"/>
 
 
 `SELECT` is very helpful if you want to take a look of your table to make sure everything is at where they supposed to be. 
