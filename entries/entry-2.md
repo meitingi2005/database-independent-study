@@ -43,6 +43,7 @@ Another feature that ActiveRecord provides that is extremely helpful is the comm
 
 <br>
 #### Takeaways:
+
 1. Naming is super important because it will tell you the chronological process of the code. When naming a file, you should create a name that will tell you what the file inside is without even opening it. In ActiveRecord, there are lots of files or classes that will responsible for differnt parts of your progam. As a result, do name them wisely!
 2. The beginning part of a new unit can be very boring, but just keep in mind that you can't make anything complicated without the basic/setup. 
 
