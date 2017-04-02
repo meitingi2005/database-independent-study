@@ -5,7 +5,8 @@ Last week I learned the basic of SQL and the syntax to manage a table. This week
 ##### So, what is ActiveRecord?
 
 In a professional definition, ActiveRecord is Object-Relational Mapper (ORM) that is written in Ruby. It allows us to interact with the databases using simple ruby code. ORM basically means each class is organized using rows and each instance of the class is represented in a row. ActiveRecord mostly has four main functions: CRUD(Create, Read, Update, and Delete).From what I’ve learned this week, ActiveRecord is a simplified version of SQL. <br><br>
-Below is some basic conversion from SQL to ActiveRecord that I took from a github repo:
+Below is some basic conversion from SQL to ActiveRecord that I took from a github repo:<br>
+
 | SQL | ActiveRecord |
 |----	|----- |
 |SELECT * FROM cats;| Cat.all|  
@@ -15,6 +16,7 @@ Below is some basic conversion from SQL to ActiveRecord that I took from a githu
 |UPDATE cats SET name = "Hana" <br> WHERE name = "Hannah";| hannah = Cat.where(name: 'Hana') <br> hannah.name = "Hannah" |
 |DELETE * FROM cats <br> WHERE id = 3;| Cat.destroy(3)|
 
+<br>
 As you can see, the SQL and ActiveRecord can do the same job as for creating or manipulating tables. But ActiveRecord is just shorter and more convient to write. 
 <br>
 ##### what is Migration?
