@@ -19,6 +19,7 @@ Below is some basic conversion from SQL to ActiveRecord that I took from a githu
 <br>
 As you can see, the SQL and ActiveRecord can do the same job as for creating or manipulating tables. But ActiveRecord is just shorter and more convient to write. 
 <br>
+
 ##### what is Migration?
 
 The first thing I learned from ActiveRecord is the importance of setting up “Migration”. So, I was first confused about what migration is because the term migration means moving on. On one of the documentation, it says migration is a way to keep track of all the changes that is being made. The way migration is structured is using the up and down methods. The way the documentation called that helped me alot was “do” and “undo”. In other words, you will create a table in the “up” method and if there is a time you want to go back to the preview changes, you call the “down” method. Think of migration as git commit and uncommit.
@@ -42,6 +43,7 @@ Another feature that ActiveRecord provides that is extremely helpful is the comm
 
 
 <br>
+
 ##### Takeaways:
 
 1. Naming is super important because it will tell you the chronological process of the code. When naming a file, you should create a name that will tell you what the file inside is without even opening it. In ActiveRecord, there are lots of files or classes that will responsible for differnt parts of your progam. As a result, do name them wisely!
