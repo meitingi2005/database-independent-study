@@ -53,7 +53,7 @@ end
 ```
 Another important feature of ActiveRecord is that there are many build in methods we can use to replace Ruby code. For example, when we only use ruby, we need to use attr_accessor to allow access to motify the mode, create a method called initialize and to use array to store information. The most useful and convient part of ActiveRecord is that we can use the table we created in Migration to get all access to information and the new instance will get initialized in the migration stage. Magical right!
 
-#### How does the computer know which text or tweet in this case belongs to which user? 
+#### How does the computer know which text or tweet in this case belongs to a partic user? 
 The answer is that ActiveRecord has lots of prewritten functions we can use to make such connection in a very easy way. One of them that I will be using is the `belongs_to`. How this work is you place it in the tweet class and write `belongs_to: users`. So whenever a user post something, that post will automactically belong or place in that user column. <br>
 
 So, how do you make the text or user show up on the front-end? This is exactly same as what we need for sinatra. We need to iterate the column and print out the one that belongs to that particular user on the sceen. 
