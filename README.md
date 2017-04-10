@@ -1,4 +1,5 @@
 # Database-Independent-Study
 
 [Entry 1: Intro: Basic SQL syntax](entries/entry-1.md) <br>
-[Entry 2: ActiveRecord and Migration](entries/entry-2.md)
+[Entry 2: ActiveRecord and Migration](entries/entry-2.md)<br>
+[Entry 2: Create User Account](entries/entry-3.md)<br>
