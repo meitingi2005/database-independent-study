@@ -28,7 +28,7 @@ rake db:rollback            # Rolls the schema back to the previous version...
 
 In order to set up the user's table, we need to use iteration in the up method that we created in the Migration file. What needs to be interated is up to you such as username, email, passowrd and etc. When a new instance is created, the information will show up in the table. But, how do we connect the migration with the class? The answer is that the computer will do it if you name the two files correctly. The name of the class should always be singular whereas the name of the migration should be pural. For example, if the class name is User, then the name of the migration will need to be users.<br><br>
 
-Below is the code of a migration:
+Below is the code of a users migration:
 ```
 class CreateUsers < ActiveRecord::Migration
 
@@ -46,6 +46,11 @@ class CreateUsers < ActiveRecord::Migration
 end
 ```
 
+Below is the code for the User class:
+```
+class User < ActiveRecord::Base
+end
+```
 Another important feature of ActiveRecord is that there are many build in methods we can use to replace Ruby code. For example, when we only use ruby, we need to use attr_accessor to allow access to motify the mode, create a method called initialize and to use array to store information. The most useful and convient part of ActiveRecord is that we can use the table we created in Migration to get all access to information and the new instance will get initialized in the migration stage. Magical right!
 
 So, how do you make the text or user show up on the front-end? This is exactly same as what we need for sinatra. We need to iterate the column and print out the one that belongs to that particular user on the sceen. 
