@@ -26,7 +26,43 @@ So, you may be asking how do other pages know who the user is. The answer is tha
 
 Actually logging out is way easier than signing in because ActiveRecord has a prewriteen code. All we need to do is in the `get '/sessions/logout'` route, put `session.clear`. This line of code will clean out all of the data from the session hash. It does not mean your data will be forever deleted, it only means the data is cleaned out at that particular moment.
 
+Below is what your application controller might look like:
+```
+ get '/registrations/signup' do
+    erb :'/registrations/signup'
+  end
+
+  post '/registrations' do
+    puts params
+    @user = User.new(name: params["name"], email: params["email"], password: params["password"])
+    @user.save
+    session[:id] = @user.id
+    redirect '/users/home'
+  end
+
+  get '/sessions/login' do
+    erb :'sessions/login'
+  end
+
+  post '/sessions' do
+    puts params
+    @user = User.find_by(email: params["email"], password: params["password"])
+    session[:id] = @user.id
+    redirect '/users/home'
+  end
+
+  get '/sessions/logout' do
+    session.clear
+    redirect '/'
+  end
+
+  get '/users/home' do
+    @user = User.find(session[:id])
+    erb :'/users/home'
+  end
+  ```
 
 #### Takeaways:
-1.
-2.
+1. The best way to learn anything is to code it yourself and follow step by step. At this point of learning, I am actually still a bit confused on the work flow because of how many steps there are. What I did was clone the repo into my c9 and delete the code that was already there and start the tutorial from the beginning. 
+
+2. Write or draw out your thought process on the paper. I was confused on the order of the tutorial so I decided to draw everything out and use arrows to make it readable. 
