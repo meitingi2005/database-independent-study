@@ -4,13 +4,15 @@
 
 This week I will be talking about security and user password. Have you ever wondered how the computer keep track of your data even after you log out of your account? Last week, I learned how to let user create an username and use that username to retrieve the data from the table. In week, I want to let the user be able to login and logout from its account. So, how do we do it? The answer is cookie and session. 
 
+<img src="../photo/cookies.png"/>
+
 ##### Difference between Cookie and Session
 
 I bet everyone heard of cookie at least once in their life(not the cookie that you can eat) while browsing through the internet. So, what is the main difference between cookie and session? I honestly was very confused when I was reading the documentation because they both have very similar function, which is to store data. From my understanding, cookie is a hash that stores information and it lives on both the browser and it is used to help identify the user’s information that is on the server. The cookie sends information back and forth between the browser and the server. On the other side, session is also a hash that lives on the server and it only stores the information at contains the user interaction on the browser. 
-
-There are two types of cookies:
-Session cookies
-Persistent cookies
+<br>
+There are two types of cookies:<br>
+Session cookies: This is stored temporarily on the website(from the time you login to logout). It allows you go to page to page without re entering your password. Your information will be the same during that time. <br>
+Persistent cookies: This is stored in your computer and the information is stored for future preferences and visits. Think of this as the suggested items you see on amazon or your username typed on the box when you first visit the page. It allows faster web flow and loading time.
 
 #### Create account and Login
 
