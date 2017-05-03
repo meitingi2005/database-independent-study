@@ -77,6 +77,8 @@ end
 
 This week was more about me trying to figure out the layout of the website and the relationship between each files. At this point, I am trying to learn how to let user to comment on a specfic post from a particular user. I have been reading documentations and some other articles to try to understand the concept. My goal for next week is to let user to click on a post and be able to comment on it. 
 
+My thought process is that the user will click on the question that they want to answer, then the computer will bring it to a new page with the question and a form for it to put the answer. In order to do so, the computer will have to access to the information of that post through the owner of the post. Then the user's answer will be displayed underneath the question. My problem is how am I going to display that answer under the question. 
+
 
 
 ### Takeaways:
