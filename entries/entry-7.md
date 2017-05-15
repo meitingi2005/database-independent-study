@@ -25,7 +25,7 @@ end
 
 ```
 I decided to use `self` to represent the current user because I thought each user should be a new client of goodreads and owns it set of book. I'm not completely sure whether this is correct or not so that is going to be the next step of my project. 
-<br>
+<br><br>
 Book class
 ```
 class Book < ActiveRecord::Base
