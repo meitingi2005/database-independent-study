@@ -1,6 +1,6 @@
 # Entry 8: Finishing up my final project
 
-Week 8 was so far my most productive week because I needed to finish up my MVP of the project. My project is still not perfect but the main parts of the project are there(ActiveRecord). Week 9y will be my last week and I will use that week to finish up the wishlist page and to make the front-end pretty and nice. 
+Week 8 was so far my most productive week because I needed to finish up my MVP for my project. My project is still not working the way I expected but the main parts of the project are there(ActiveRecord). Week 9 will be my last week and I will use that week to finish up the wishlist page and to make the front-end pretty and nice. 
 
 In my last week's blog, I talked about not knowing where to put my `@client` to because the `def initialize` will no longer be in my book.rb file. So I decided to tinker and make the client variable into a global variable (@@client) so that every methods can recognize it. However, when I ran shotgun there appeared to have a bug in somewhere so I suspected it came from the global variable because I was told that global variable can be hard to use. At that time, I wanted to spend more time on my wishlist part of the project so I decided to put the client part aside by keeping the def initialize in the book model (I at first thought def initialize would not work because of the migration, but it seems like it will still work if you put it there). But I will definitely come back next week to this part and find out why global variable did not work in my project. 
 
