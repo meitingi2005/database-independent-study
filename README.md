@@ -7,3 +7,4 @@
 [Entry 5: Starting the Final Project](entries/entry-5.md)<br>
 [Entry 6: New Project Idea](entries/entry-6.md)<br>
 [Entry 7: Working on the project](entries/entry-7.md)<br>
+[Entry 8: Finishing up the project (Almost there](entries/entry-8.md)<br>

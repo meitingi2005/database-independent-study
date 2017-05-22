@@ -1,0 +1,13 @@
+# Entry 8: Finishing up my final project
+
+Week 8 was so far my most productive week because I needed to finish up my MVP of the project. My project is still not perfect but the main parts of the project are there(ActiveRecord). Week 9y will be my last week and I will use that week to finish up the wishlist page and to make the front-end pretty and nice. 
+
+In my last week's blog, I talked about not knowing where to put my `@client` to because the `def initialize` will no longer be in my book.rb file. So I decided to tinker and make the client variable into a global variable (@@client) so that every methods can recognize it. However, when I ran shotgun there appeared to have a bug in somewhere so I suspected it came from the global variable because I was told that global variable can be hard to use. At that time, I wanted to spend more time on my wishlist part of the project so I decided to put the client part aside by keeping the def initialize in the book model (I at first thought def initialize would not work because of the migration, but it seems like it will still work if you put it there). But I will definitely come back next week to this part and find out why global variable did not work in my project. 
+
+This week, I created a nav bar for my user login and signup pages and I tried to finish up the wishlist page which I did not completely finish. The main problem I was constantly facing was adding the new book into an empty array (@savedbooks) which should consist of all the book objects the user added. However, when I was testing the code, it kept on telling me "undefined method `<<' for nil:NilClass". I first put the shovel method in the application controller because it makes more sense that a new book instance will be created when the user click on the button. However, that did not work so I decided to put the shovel method into the book.rb file but that gave me the same error message. 
+
+What I have so far in my project is the signin/signup pages and an add to my wishlist button on each book. I feel like I am so close on finishing up the project because my only problem now is finding where to put the `@savedbooks` array. 
+
+### Takeaways:
+1. ***Read your error messages!*** You will never move on to the next step if you don't read the error message. While I was testing out my project, I had tons error messages which was a good sign to me because I know a new error message means you resolved the previous old. So don't get discouraged!
+2. ***Test out your project! *** I can't even tell you how many times I ran shotgun in the past week. Just looking at the code will not help you debug anything unless you see it physically. 
