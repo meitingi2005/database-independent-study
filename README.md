@@ -11,4 +11,4 @@
 
 [Link to Presentation](https://docs.google.com/a/hstat.org/presentation/d/1OrBW_pbbeTb4hQXGFceisxMHP6Wrz-ztpChN8RKdv6U/edit?usp=sharing)<br>
 [Link to Product](https://ruby-meitingi2005.c9users.io/)<br>
-[Link to Bookommender](www.bookommender.herokuapp.com)<br>
+<a href="www.bookommender.herokuapp.com">Link to Bookommender</a>
